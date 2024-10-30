@@ -1,5 +1,5 @@
 *{
- background-color: pink;   
+    background-color: pink;   
 }
 img {
     width: 700px;
@@ -12,5 +12,4 @@ img {
     justify-content: center;
     text-align: center;
     min-height: 100vh; /* O el tamaño que desees */
-  }
-  
+}
