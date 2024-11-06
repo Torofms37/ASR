@@ -1,0 +1,34 @@
+
+/* Reset de márgenes y padding para que no haya espacios indeseados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background: lightcoral;
+    height: 100%;  /* Aseguramos que el body ocupe todo el alto de la pantalla */
+    font-family: Arial, sans-serif;  /* Puedes cambiar la fuente si lo deseas */
+}
+
+body {
+    display: flex;
+    justify-content: center;  /* Centra el contenido horizontalmente */
+    align-items: center;  /* Centra el contenido verticalmente */
+    height: 100vh;  /* Hace que el body ocupe toda la altura de la ventana */
+}
+
+section {
+    text-align: center;  /* Centra el texto de los elementos dentro del contenedor */
+    padding: 20px;
+    background-color: greenyellow;  /* Fondo blanco para el contenedor */
+    border-radius: 10px;  /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Sombra suave alrededor del contenedor */
+}
+
+img {
+    margin-top: 20px;
+    width: 200px;  /* Puedes ajustar el tamaño de la imagen */
+    height: auto;
+}
