@@ -1,5 +1,5 @@
 
-/* Reset de márgenes y padding para que no haya espacios indeseados */
+/* No hagas cambios al * ni root */
 * {
     margin: 0;
     padding: 0;
